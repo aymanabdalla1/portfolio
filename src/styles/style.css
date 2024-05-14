@@ -1,7 +1,7 @@
 :root {
-  --dark-navy: #0b182c;
+  --dark-navy: #14315e;
   --navy: #12223d;
-  --light-navy: #233450;
+  --light-navy: #436dad;
   --light-lime: #64ff93;
   --white: #e9f1fc;
   --bone-white: #d4ddf8;
@@ -919,10 +919,10 @@ li {
 }
 
 .navlist ul li a {
-  color: var(--smoke);
+  color: var(--white);
   text-decoration: none;
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 .navlist ul li a:hover {
@@ -1023,8 +1023,8 @@ li {
   }
 
   .linkbar a {
-    color: var(--smoke);
-    font-size: 1.4rem;
+    color: var(--white);
+    font-size: 1.8rem;
   }
 }
 
