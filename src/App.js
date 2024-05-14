@@ -32,7 +32,7 @@ function App() {
               <Navbar />
               <RepoStats />
               <Linkbar />
-              {intro_screen.section.enable_section && <Intro />}
+              {/* {intro_screen.section.enable_section && <Intro />} */}
               {about_me.section.enable_section && <About />}
               {academics.section.enable_section && <Education />}
               {experience.section.enable_section && <WorkExperience />}
