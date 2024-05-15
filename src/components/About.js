@@ -82,6 +82,131 @@ const AboutMe = () => {
                   <p className="about-me-desc">{aboutMe.skills_caption}</p>
                   <div className="languages-list">
                     <ul>
+
+            <h3 className="title-a">Skills</h3>
+            <ul>         
+              <li className="bg-snow shadow-md border-2 border-black rounded-xl p-3 flex justify-center items-center">
+                <img
+                  src="/assets/icons/js.svg"
+                  alt="Javascript logo"
+                />
+                <img
+                  src="/assets/icons/ts.svg"
+                  alt="Typescript logo"
+                />
+              <img
+                  src="/assets/icons/python.svg"
+                  alt="Python logo"
+                />
+                <img
+                  src="/assets/icons/java.svg"
+                  alt="Java logo"
+                />
+              <img
+                  src="/assets/icons/c.svg"
+                  alt="C/C++ logo"
+                />
+                <img
+                  src="/assets/icons/react.svg"
+                  alt="React logo"
+                />
+                <img
+                  src="/assets/icons/next.svg"
+                  alt="Next.js logo"
+                />
+                <img
+                  src="/assets/icons/mysql.svg"
+                  alt="MySQL logo"
+                />
+                <img
+                  src="/assets/icons/mongodb.svg"
+                  alt="MongoDB logo"
+                />
+                <img
+                  src="/assets/icons/git.svg"
+                  alt="Git logo"
+                />
+                <img
+                  src="/assets/icons/aws.svg"
+                  alt="AWS logo"
+                />
+                <img
+                  src="/assets/icons/docker.svg"
+                  alt="Docker logo"
+                />
+
+              {/* </li>
+              <li className="bg-snow shadow-md border-2 border-black rounded-xl p-4 flex justify-center items-center">
+                <img
+                  src="/assets/icons/ts.svg"
+                  alt="Typescript logo"
+                />
+              </li>
+              <li className="bg-snow shadow-md border-2 border-black rounded-xl p-3 flex justify-center items-center">
+                <img
+                  src="/assets/icons/python.svg"
+                  alt="Python logo"
+                  className="w-7 h-7 ml-2 transition-transform duration-300 hover:scale-110"
+                />
+              </li>
+              <li className="bg-snow shadow-md border-2 border-black rounded-xl p-3 flex justify-center items-center">
+                <img
+                  src="/assets/icons/java.svg"
+                  alt="Java logo"
+                  className="w-7 h-7 ml-2 transition-transform duration-300 hover:scale-110"
+                />
+              </li>
+              <li className="bg-snow shadow-md border-2 border-black rounded-xl p-3 flex justify-center items-center">
+                <img
+                  src="/assets/icons/c.svg"
+                  alt="C/C++ logo"
+                />
+              </li>
+              <li className="bg-snow shadow-md border-2 border-black rounded-xl p-3 flex justify-center items-center">
+                <img
+                  src="/assets/icons/react.svg"
+                  alt="React logo"
+                />
+              </li>
+              <li className="bg-snow shadow-md border-2 border-black rounded-xl p-3 flex justify-center items-center">
+                <img
+                  src="/assets/icons/next.svg"
+                  alt="Next.js logo"
+                />
+              </li>
+              <li className="bg-snow shadow-md border-2 border-black rounded-xl p-3 flex justify-center items-center">
+                <img
+                  src="/assets/icons/mysql.svg"
+                  alt="MySQL logo"
+                />
+              </li>
+              <li className="bg-snow shadow-md border-2 border-black rounded-xl p-3 flex justify-center items-center">
+                <img
+                  src="/assets/icons/mongodb.svg"
+                  alt="MongoDB logo"
+                />
+              </li>
+              <li className="bg-snow shadow-md border-2 border-black rounded-xl p-3 flex justify-center items-center">
+                <img
+                  src="/assets/icons/git.svg"
+                  alt="Git logo"
+                />
+              </li>
+              <li className="bg-snow shadow-md border-2 border-black rounded-xl p-3 flex justify-center items-center">
+                <img
+                  src="/assets/icons/aws.svg"
+                  alt="AWS logo"
+                />
+              </li>
+              <li className="bg-snow shadow-md border-2 border-black rounded-xl p-3 flex justify-center items-center">
+                <img
+                  src="/assets/icons/docker.svg"
+                  alt="Docker logo"
+                /> */}
+              </li>
+            </ul>
+
+          
                       {firstHalf.map((skill, index) => (
                         <Fade
                           delay={index * 200}
