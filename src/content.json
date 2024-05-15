@@ -20,20 +20,17 @@
     "section": {
       "enable_section": true
     },
-    "main_header": "Hello, Kevin here.",
+    "main_header": "Hello, Ayman here.",
     "main_subtitle": "I like to build stuff occasionally.",
     "intro_bio": [
-      "I'm nobody,",
-      "Majoring in Computer Science with minor in Mathematics.",
-      "I have a profound interest in machine learning, operating",
-      "systems, full-stack development, and everything in between."
+      "I'm nobody!"
     ],
-    "email_button": "Say hello to me!"
+    "email_button": "Connect with me!"
   },
   "about_me": {
     "section": {
       "enable_section": true,
-      "title": "About Me",
+      "title": "Hello, my name is Ayman!",
       "navbar_name": "/About",
       "description": "Brief information about me and some of my interests."
     },
@@ -116,73 +113,6 @@
             "credits": 3.0
           }
         ]
-      },
-      {
-        "year": 2022,
-        "semester": "Fall",
-        "courses": [
-          {
-            "abbreviation": "CS 2315",
-            "name": "Algorithms and Data Structure",
-            "credits": 3.0
-          },
-          {
-            "abbreviation": "CS 2313",
-            "name": "Object Oriented Programming I",
-            "credits": 3.0
-          },
-          {
-            "abbreviation": "CS 2110",
-            "name": "Sophomore CS Seminar",
-            "credits": 1.0
-          },
-          {
-            "abbreviation": "CM 1341",
-            "name": "Intro to Human Communication",
-            "credits": 3.0
-          },
-          {
-            "abbreviation": "AR 1300",
-            "name": "Concepts in Visual Arts",
-            "credits": 3.0
-          }
-        ]
-      },
-      {
-        "year": 2023,
-        "semester": "Spring",
-        "courses": [
-          {
-            "abbreviation": "CS 2350",
-            "name": "Computer Architecture",
-            "credits": 3.0
-          },
-          {
-            "abbreviation": "CS 2323",
-            "name": "Object Oritented Programming II",
-            "credits": 3.0
-          },
-          {
-            "abbreviation": "CS 4375",
-            "name": "Advanced Topics (Python Data Analytics)",
-            "credits": 3.0
-          },
-          {
-            "abbreviation": "MT 2323",
-            "name": "Discrete Math Structures",
-            "credits": 3.0
-          },
-          {
-            "abbreviation": "TH 1301",
-            "name": "Introduction to Thelogy",
-            "credits": 3.0
-          },
-          {
-            "abbreviation": "AC 2301",
-            "name": "Financial Accounting",
-            "credits": 3.0
-          }
-        ]
       }
     ]
   },
@@ -200,21 +130,18 @@
         "start_date": "August 2023",
         "end_date": " December 2023",
         "description": [
-          "Conducted thorough undergraduate research on compiler design and high-level to low-level language translation.",
-          "Developed a lightweight translator by building a parser, lexer, and semantic analyzer module to convert custom code into assembly language for a virtual machine.",
-          "Collaborated closely with mentors to refine development skills and deepen understanding of language design principles and compiler design methodologies."
+          "Provided one-on-one support to over 50 students during weekly office hours, addressing questions or concerns, and clarifying any doubts related to course content.",
+          "Graded assignments and exams promptly, maintaining a 48-hour turnaround time, and provided constructive feedback.",
+          "Updated course materials, including lecture notes, problem sets, and exam questions, contributing to an increase in student comprehension and engagement."
         ]
       },
       {
-        "organization": "NP Engagement",
-        "title": "Web Developer Intern",
-        "start_date": "August 2022",
-        "end_date": "November 2022",
+        "organization": "Future Experience",
+        "title": "Software Engineering Intern",
+        "start_date": "May 2024",
+        "end_date": "August 2024",
         "description": [
-          "Maintained and updated numerous partner websites and online services, ensuring peak performance and relevance with proficiency in HTML, CSS, and JavaScript.",
-          "Integrated custom API scripts, optimized websites to fulfill unique client requirements and enhance user experience.",
-          "Utilized my proficiency in WordPress, crafting visually stunning and highly functional platforms tailored to precise client specifications, ensuring optimal user engagement.",
-          "Drove tangible business growth and significantly boosted client visibility and traffic by orchestrating cross-functional teamwork, applying my technical skills and strategic insights."
+          "> INSERT EXPERIENCE HERE <"
         ]
       }
     ]
