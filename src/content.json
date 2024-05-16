@@ -143,25 +143,23 @@
     "project_items": [
       {
         "use_git_api": true,
-        "api_github_repo_link": "https://api.github.com/repos/aymanabdalla1/",
+        "api_github_repo_link": "https://api.github.com/repos/aymanabdalla1/pixera",
         "project_name": "PixEra",
-        "description": "A website designed to connect photographers and videographers with clients and provide them an easy booking experience.",
+        "description": "A website designed to connect photographers and videographers together with clients and provide them an easy booking experience.",
         "resources_used": [
           "React.js",
           "Python",
           "MongoDB",
           "Digital Ocean",
-          "NVM",
-          "HTML & CSS",
+          "NVM",          
           "JavaScript",
-          "HTML",
-          "CSS"
+          "HTML & CSS"
         ],
         "start_date": "Sept 2023",
         "end_date": "Dec 2023",
         "links": [
           {
-            "href": "https://github.com/aymanabdalla1/",
+            "href": "https://github.com/aymanabdalla1/pixera",
             "icon": "FaGithub",
             "data_tooltip": "Visit GitHub Repo"
           }
@@ -169,7 +167,7 @@
       },
       {
         "use_git_api": true,
-        "api_github_repo_link": "https://api.github.com/repos/aymanabdalla1/",
+        "api_github_repo_link": "https://api.github.com/repos/aymanabdalla1/redblue_nim",
         "project_name": "Red-Blue Nim Game",
         "description": "An ai agent decision based game that allowed to players to select red and blue marbles while avoiding depleting either pile to 0 marbles on their turn.",
         "resources_used": [
@@ -180,7 +178,7 @@
         "end_date": "May 2024",
         "links": [
           {
-            "href": "https://github.com/aymanabdalla1",
+            "href": "https://github.com/aymanabdalla1/redblue_nim",
             "icon": "FaGithub",
             "data_tooltip": "Visit GitHub Repo"
           }
