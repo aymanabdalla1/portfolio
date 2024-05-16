@@ -178,15 +178,10 @@ const SideProjects = () => {
                         </h1>
                       </div>
                       <h3 className="card-title">
-                        {project.use_git_api
-                          ? projectData[index]?.name || project.project_name
-                          : project.project_name}
+                        {project.project_name}
                       </h3>
                       <p className="card-description">
-                        {project.use_git_api
-                          ? projectData[index]?.description ||
-                            project.description
-                          : project.description}
+                        {project.description}
                       </p>
                       <br />
                       <p className="resources-used">
