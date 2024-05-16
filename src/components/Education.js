@@ -97,10 +97,26 @@ const Education = () => {
           </div>
           <div className="row">
             <div className="col-sm-12">
-            {/* <img
+              
+              {/* <img
                   src="/assets/icons/uta_logo.jpeg"
                   alt="UTA Logo"
-                  className="bg-snow shadow-md border-2 border-black rounded-xl p-3 flex justify-center items-center"/> */}
+                  width="15%"
+                  className="bg-snow shadow-md border-2 border-black rounded-xl p-1 flex justify-center items-center"/> */}
+  
+{/* 
+            <div class="content">
+    <img src="/assets/icons/uta_logo.jpeg" alt="UTA LOGO" />
+    <h3>Title</h3>
+    <p>Some Description</p>
+</div> */}
+            
+            {/* <img
+                  src="/assets/icons/tamucc_logo.png"
+                  alt="TAMUCC Logo"
+                  width="15%"
+                  className="bg-snow shadow-md border-2 border-black rounded-xl p-1 flex justify-center items-center"/> */}
+
               <div className="row">
                 {education.years.map((year, index) => (
                   <div className="col-md-20" key={index}>
