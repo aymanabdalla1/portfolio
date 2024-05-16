@@ -98,7 +98,10 @@ const AboutMe = () => {
                   src="/assets/icons/python.svg"
                   alt="Python logo"
                 />
-
+              <img
+                  src="/assets/icons/java.svg"
+                  alt="Java logo"
+                />
 
               <img
                   src="/assets/icons/c.svg"
