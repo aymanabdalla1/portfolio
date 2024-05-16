@@ -142,65 +142,54 @@
     "project_items": [
       {
         "use_git_api": true,
-        "api_github_repo_link": "https://api.github.com/repos/KevinTrinh1227/Prize-Pick-Predictions",
-        "project_name": "STMU Yelp",
-        "description": "Application that showcases popular locations for college students specifically for St. Mary's students. collaborated with an 7 person team.",
+        "api_github_repo_link": "https://api.github.com/repos/aymanabdalla1/",
+        "project_name": "PixEra",
+        "description": "A website designed to connect photographers and videographers with clients and provide them an easy booking experience.",
         "resources_used": [
-          "JavaScript",
-          "Python",
-          "Flask",
           "React.js",
-          "CSS",
+          "Python",
           "MongoDB",
+          "Digital Ocean",
+          "NVM",
+          "HTML & CSS",
+          "JavaScript",
           "HTML",
-          "Rest API"
+          "CSS"
         ],
-        "start_date": "Sept 2022",
-        "end_date": "May 2023",
+        "start_date": "Sept 2023",
+        "end_date": "Dec 2023",
         "links": [
           {
-            "href": "https://github.com/KevinTrinh1227/Prize-Pick-Predictions",
+            "href": "https://github.com/aymanabdalla1/",
             "icon": "FaGithub",
             "data_tooltip": "Visit GitHub Repo"
-          },
-          {
-            "href": "https://github.com/KevinTrinh1227/Prize-Pick-Predictions/archive/main.zip",
-            "icon": "FaDownload",
-            "data_tooltip": "Download Project"
           }
         ]
       },
       {
         "use_git_api": true,
-        "api_github_repo_link": "https://api.github.com/repos/KevinTrinh1227/Hycord-Client",
-        "project_name": "Hycord Client",
-        "description": "Discord.py client that uses Hypixel & PlayerDB APIs to allow users to link and access in-game data. Simply, a versatile Hypixel Discord bot.",
-        "resources_used": ["HTML", "Discord.py", "Hypixel API"],
-        "start_date": "Dec 2022",
-        "end_date": "Present",
+        "api_github_repo_link": "https://api.github.com/repos/aymanabdalla1/",
+        "project_name": "Red-Blue Nim Game",
+        "description": "An ai agent decision based game that allowed to players to select red and blue marbles while avoiding depleting either pile to 0 marbles on their turn.",
+        "resources_used": [
+          "Python",
+          "Bash"
+        ],
+        "start_date": "Jan 2024",
+        "end_date": "May 2024",
         "links": [
           {
-            "href": "https://www.hycord.net",
-            "icon": "FiExternalLink",
-            "data_tooltip": "Information Page"
-          },
-          {
-            "href": "https://github.com/KevinTrinh1227/Hycord-Client",
+            "href": "https://github.com/aymanabdalla1",
             "icon": "FaGithub",
             "data_tooltip": "Visit GitHub Repo"
-          },
-          {
-            "href": "https://github.com/KevinTrinh1227/Hycord-Client/archive/main.zip",
-            "icon": "FaDownload",
-            "data_tooltip": "Download Project"
           }
         ]
       },
       {
         "use_git_api": true,
-        "api_github_repo_link": "https://api.github.com/repos/KevinTrinh1227/Reactfolio",
-        "project_name": "Reactfolio V2",
-        "description": "An e-portfolio built with React.js that utilizes GitHub API. Designed for public use and easy configuration. The second iteration of my website.",
+        "api_github_repo_link": "https://api.github.com/repos/aymanabdalla1/portfolio",
+        "project_name": "Personal Portfolio",
+        "description": "An e-portfolio built with React.js that utilizes GitHub API. Designed for public use and easy configuration, the first iteration of my website.",
         "resources_used": [
           "React.js",
           "NVM",
@@ -209,11 +198,11 @@
           "HTML",
           "CSS"
         ],
-        "start_date": "Sept 2023",
+        "start_date": "May 2024",
         "end_date": "Present",
         "links": [
           {
-            "href": "https://github.com/KevinTrinh1227/Reactfolio",
+            "href": "https://github.com/aymanabdalla1/Reactfolio",
             "icon": "FaGithub",
             "data_tooltip": "Visit GitHub Repo"
           }
