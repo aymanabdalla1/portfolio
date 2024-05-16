@@ -23,7 +23,7 @@ const Portfolio = () => {
     <div style={{ height: "100vh", overflow: "hidden" }}>
       <embed
         id="pdfEmbed"
-        src="../assets/Resume.pdf"
+        src="../assets/ayman_resume.pdf"
         type="application/pdf"
         width="100%"
         height="100%"

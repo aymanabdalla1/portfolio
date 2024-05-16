@@ -37,7 +37,7 @@
     "headShotUrl": "../assets/portrait.png",
     "bio": [
       "I am currently a senior studying Software Engineering at the University of Texas at Arlington, who is passionate about problem-solving software development, contributing to innovative projects, and learning from experienced professionals.",
-      "I have great interest in numerous types of software development such as machine learning, computer vision, and full-stack development. In my free time, I enjoy playing video games, reading, thrifting, and spending time with friends."
+      "I have great interest in numerous types of software development such as machine learning, computer vision, and full-stack development. In my free time, I enjoy spending time outside, reading, thrifting, and hanging out with friends."
     ],
     "skills_caption": "",
     "skills": [
@@ -202,7 +202,7 @@
         "end_date": "Present",
         "links": [
           {
-            "href": "https://github.com/aymanabdalla1/Reactfolio",
+            "href": "https://github.com/aymanabdalla1/portfolio",
             "icon": "FaGithub",
             "data_tooltip": "Visit GitHub Repo"
           }
