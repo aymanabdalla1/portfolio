@@ -99,7 +99,7 @@ const Education = () => {
             <div className="col-sm-12">
               <div className="row">
                 {education.years.map((year, index) => (
-                  <div className="col-md-6" key={index}>
+                  <div className="col-md-20" key={index}>
                     <Fade
                       delay={index * 200}
                       cascade={false}
@@ -110,11 +110,7 @@ const Education = () => {
                           <thead>
                             <tr>
                               <th>
-                                {year.semester} {year.year} Courses
-                              </th>
-                              <th>
-                                Total Credits:{" "}
-                                {totalCreditsPerYear[index].toFixed(1)}
+                                {year.semester} {year.year}
                               </th>
                             </tr>
                           </thead>
@@ -124,7 +120,6 @@ const Education = () => {
                                 <td data-tooltip={course.abbreviation}>
                                   {course.name}
                                 </td>
-                                <td>{course.credits.toFixed(1)}</td>
                               </tr>
                             ))}
                           </tbody>
