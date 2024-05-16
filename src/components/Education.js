@@ -97,6 +97,10 @@ const Education = () => {
           </div>
           <div className="row">
             <div className="col-sm-12">
+            {/* <img
+                  src="/assets/icons/uta_logo.jpeg"
+                  alt="UTA Logo"
+                  className="bg-snow shadow-md border-2 border-black rounded-xl p-3 flex justify-center items-center"/> */}
               <div className="row">
                 {education.years.map((year, index) => (
                   <div className="col-md-20" key={index}>
