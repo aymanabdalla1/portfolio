@@ -85,7 +85,7 @@ const AboutMe = () => {
 
             <h3 className="title-a">Skills</h3>
             <ul>         
-              <li className="bg-snow shadow-md border-2 border-black rounded-xl p-3 flex justify-center items-center">
+              <li className="bg-snow shadow-md border-2 border-black rounded-xl p-3 flex justify- items-center">
                 <img
                   src="/assets/icons/js.svg"
                   alt="Javascript logo"
