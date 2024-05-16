@@ -71,12 +71,34 @@
         "semester": "Relevant Courses",
         "courses": [
           {
-            "abbreviation": "Coursework used C or Java",
+            "abbreviation": "Learned with C or Java",
             "name": "Data Structures & Algorithms, Object-Oriented Programming, Artificial Intelligence, Programming Languages, Operating Systems, Databases",
             "credits": 3.0
           }
         ]
+      },
+
+      {
+        "semester": "Texas A&M University at Corpus Christi",
+        "courses": [
+          {
+            "abbreviation": "Past Education",
+            "name": "Bachelor of Business in Marketing ---------------------------------------------------------------------------------- August 2014 - December 2018",
+            "credits": 3.0
+          }
+        ]
+      },
+      {
+        "semester": "Relevant Courses",
+        "courses": [
+          {
+            "abbreviation": "Learned with C or Java",
+            "name": "Market Research, Administration Policy and Strategy, Consumer Behavior, Data Analysis and Statistics, International Marketing",
+            "credits": 3.0
+          }
+        ]
       }
+      
     ]
   },
   "experience": {
@@ -93,6 +115,7 @@
         "start_date": "August 2023",
         "end_date": " December 2023",
         "description": [
+          "Theoretical Computation CSE-3315",
           "Provided one-on-one support to over 50 students during weekly office hours, addressing questions or concerns, and clarifying any doubts related to course content.",
           "Graded assignments and exams promptly, maintaining a 48-hour turnaround time, and provided constructive feedback.",
           "Updated course materials, including lecture notes, problem sets, and exam questions, contributing to an increase in student comprehension and engagement."
@@ -101,10 +124,10 @@
       {
         "organization": "Future Experience",
         "title": "Software Engineering Intern",
-        "start_date": "May 2024",
-        "end_date": "August 2024",
+        "start_date": "Now",
+        "end_date": "Future",
         "description": [
-          "> INSERT EXPERIENCE HERE <"
+          " >>> work in progress <<<"
         ]
       }
     ]
