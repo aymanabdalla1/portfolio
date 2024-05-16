@@ -350,7 +350,7 @@ a {
 .education table,
 td,
 th {
-  border: 1px solid var(--dark-navy);
+  border: 0px solid var(--dark-navy);
 }
 
 .education td {
