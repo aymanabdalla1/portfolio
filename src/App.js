@@ -1,8 +1,8 @@
 import React from "react";
-import RepoStats from "./components/RepoStats";
+// import RepoStats from "./components/RepoStats";
+// import Intro from "./components/Intro";
 import Navbar from "./components/Navbar";
 import Linkbar from "./components/Linkbar";
-import Intro from "./components/Intro";
 import About from "./components/About";
 import Education from "./components/Education";
 import WorkExperience from "./components/WorkExperience";
@@ -20,7 +20,8 @@ import content from "./content.json";
 // order for that specific component to load in the app.js
 
 function App() {
-  const { intro_screen, about_me, academics, experience, projects } = content;
+  // const { intro_screen, about_me, academics, experience, projects } = content;
+  const {about_me, academics, experience, projects } = content;
 
   return (
     <Router>
@@ -30,7 +31,7 @@ function App() {
           element={
             <div>
               <Navbar />
-              <RepoStats />
+              {/* <RepoStats /> */}
               <Linkbar />
               {/* {intro_screen.section.enable_section && <Intro />} */}
               {about_me.section.enable_section && <About />}

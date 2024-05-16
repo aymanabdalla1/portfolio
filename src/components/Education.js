@@ -72,13 +72,13 @@ const Education = () => {
   const education = contentData.academics;
 
   // Calculate the total credits for each year
-  const totalCreditsPerYear = education.years.map((year) => {
-    return parseFloat(
-      year.courses.reduce((total, course) => {
-        return total + course.credits;
-      }, 0)
-    );
-  });
+  // const totalCreditsPerYear = education.years.map((year) => {
+  //   return parseFloat(
+  //     year.courses.reduce((total, course) => {
+  //       return total + course.credits;
+  //     }, 0)
+  //   );
+  // });
 
   // Render the education section
   return (
