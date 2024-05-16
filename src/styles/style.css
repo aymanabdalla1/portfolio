@@ -25,7 +25,8 @@
 }
 
 body {
-  background: var(--dark-navy);
+  background: linear-gradient(#0d153b, #14315e);
+  /* background: var(--dark-navy); */
   color: var(--white);
   cursor: default;
 }
