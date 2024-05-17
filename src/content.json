@@ -169,7 +169,7 @@
         "use_git_api": true,
         "api_github_repo_link": "https://api.github.com/repos/aymanabdalla1/redblue_nim",
         "project_name": "Red-Blue Nim Game",
-        "description": "An ai agent decision based game that allowed to players to select red and blue marbles while avoiding depleting either pile to 0 marbles on their turn.",
+        "description": "An ai agent decision-based game that allows players to select red and blue marbles while avoiding depleting either pile to 0 marbles on their turn.",
         "resources_used": [
           "Python",
           "Bash"

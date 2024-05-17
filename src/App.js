@@ -30,10 +30,10 @@ function App() {
           path="/"
           element={
             <div>
-              <Navbar />
               {/* <RepoStats /> */}
-              <Linkbar />
               {/* {intro_screen.section.enable_section && <Intro />} */}
+              {<Navbar />}
+              {<Linkbar/>}
               {about_me.section.enable_section && <About />}
               {academics.section.enable_section && <Education />}
               {experience.section.enable_section && <WorkExperience />}
