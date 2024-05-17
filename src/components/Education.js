@@ -105,7 +105,7 @@ const Education = () => {
                   className="bg-snow shadow-md border-2 border-black rounded-xl p-1 flex justify-center items-center"/> */}
   
 {/* 
-            <div class="content">
+            <div className="content">
     <img src="/assets/icons/uta_logo.jpeg" alt="UTA LOGO" />
     <h3>Title</h3>
     <p>Some Description</p>

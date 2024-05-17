@@ -43,10 +43,10 @@ const Intro = () => {
   });
 
   return (
-    <div class="container">
-      <div class="row">
+    <div className="container">
+      <div className="row">
         <div className="col-sm-12">
-          <section class="intro_section">
+          <section className="intro_section">
             <Fade direction="down" triggerOnce={true}>
               <h1>{introContent.main_header}</h1>
               <p>
