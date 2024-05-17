@@ -74,7 +74,7 @@ const AboutMe = () => {
                       cascade={false}
                       triggerOnce={true}
                     >
-                      <p class="about-me-desc" key={index}>
+                      <p className="about-me-desc" key={index}>
                         {paragraph}
                       </p>
                     </Fade>

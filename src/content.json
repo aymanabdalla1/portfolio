@@ -3,6 +3,7 @@
     "first_name": "Ayman",
     "last_name": "Abdalla",
     "navbar_social_links": {
+      "enable_section": true,
       "github": "https://github.com/aymanabdalla1",
       "resume": "/resume",
       "linkedin": "https://www.linkedin.com/in/ayman-abdalla1/",

@@ -32,8 +32,8 @@ function App() {
             <div>
               {/* <RepoStats /> */}
               {/* {intro_screen.section.enable_section && <Intro />} */}
-              {<Navbar />}
-              {<Linkbar />}
+              <Navbar />
+              <Linkbar />
               {about_me.section.enable_section && <About />}
               {academics.section.enable_section && <Education />}
               {experience.section.enable_section && <WorkExperience />}
