@@ -93,7 +93,8 @@ const iconComponents = {
 };
 
 const SideProjects = () => {
-  const [projectData, setProjectData] = useState({});
+  // const [projectData, setProjectData] = useState({});
+  const [setProjectData] = useState({});
   const [projectLanguages, setProjectLanguages] = useState({});
 
   useEffect(() => {
@@ -138,7 +139,7 @@ const SideProjects = () => {
           });
       }
     });
-  }, []);
+  });
 
   return (
     <section id="recentprojects" className="recentprojects-mf sect-pt4 route">
