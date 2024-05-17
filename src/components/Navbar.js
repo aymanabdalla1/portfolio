@@ -32,8 +32,8 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="navlist">
-      <Fade cascade damping={0.2} triggerOnce={true}>
+    <Fade cascade damping={0.2} triggerOnce={true}> 
+      <div className="navlist">
         <ul>
           <li>
             <a href="https://www.aymanabdalla.me">/Home</a>
@@ -46,8 +46,8 @@ const Navbar = () => {
             ) : null;
           })}
         </ul>
-      </Fade>
-    </div>
+      </div>  
+    </Fade>
   );
 };
 
