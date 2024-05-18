@@ -924,26 +924,29 @@ li {
 /* Add/modify these styles */
 
 .nav-links {
-  z-index: 9999;
+  /* z-index: 9999; */
   position: fixed;
   top: 10rem;
   right: 1rem;
-  padding: 0rem;
-  margin: 0rem; /* Remove default margin */
+  padding: 10px;
+  margin: 0; /* Remove default margin */
   display: flex; /* Display links vertically */
   flex-direction: column; /* Display links vertically */
   align-items: flex-end; /* Align links to the right */
   list-style: none;
+  z-index: 1;
 }
 
 .nav-links li {
   margin-left: 10px; /* Add spacing between links */
 }
 
-.nav-links a {
-  color: var(--white);
-  font-size: 1.5rem;
+.nav-links a:hover {
+  color: var(--light-lime);
+  font-size: 1.8rem;
   text-decoration: underline; /* Add this to remove underline */
+  transition: all 0.3s ease-in-out;
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.1);
 }
 .social-icons {
   position: fixed;
@@ -954,16 +957,19 @@ li {
   display: flex; /* Align icons horizontally */
   align-items: center; /* Align icons vertically */
   list-style: none;
+  z-index: 1;
 }
 
 .social-icons li {
   margin-left: 10px; /* Add spacing between icons */
 }
 
-.social-icons a {
-  color: var(--white);
+.social-icons a:hover {
+  color: var(--light-lime);
   font-size: 1.8rem;
   text-decoration: none; /* Add this to remove underline */
+  transition: all 0.3s ease-in-out;
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.1);
 }
 
 /* Remove existing styles inside the media query */
@@ -975,7 +981,7 @@ li {
   right: 9rem; /* Adjust as needed */
   padding: 10px;
   width: 100%; /* Occupy full width of the viewport */
-  z-index: 999;
+  z-index: 1;
 
 }
 
@@ -1064,7 +1070,7 @@ li {
     padding-right: 8.5rem;
     padding-bottom: 8rem;
     text-align: right;
-    z-index: 999;
+    z-index: 1;
   }
 
   .navlist ul li {
