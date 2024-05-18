@@ -33,10 +33,11 @@ const Navbar = () => {
 
 
   return (
-    <Fade cascade damping={0.2} triggerOnce={true}> 
+    <div className="topbar"> 
+      <Fade cascade damping={0.2} triggerOnce={true}> 
       {/* <div className="navlist">
         <ul> */}
-    <div className="topbar"> {/* Changed class name to topbar */}
+
       <ul className="nav-links"> {/* Added class name nav-links */}
           <li>
             <a href="https://www.aymanabdalla.me">Home</a>
@@ -49,8 +50,9 @@ const Navbar = () => {
             ) : null;
           })}
         </ul>
-      </div>  
-    </Fade>
+      </Fade>
+    </div>  
+
   );
 };
 
