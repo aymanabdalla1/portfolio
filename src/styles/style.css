@@ -924,13 +924,12 @@ li {
 /* Add/modify these styles */
 
 .nav-links {
-
-
+  z-index: 9999;
   position: fixed;
   top: 10rem;
   right: 1rem;
-  padding: 10rem;
-  margin: 10rem; /* Remove default margin */
+  padding: 0rem;
+  margin: 0rem; /* Remove default margin */
   display: flex; /* Display links vertically */
   flex-direction: column; /* Display links vertically */
   align-items: flex-end; /* Align links to the right */
@@ -944,7 +943,7 @@ li {
 .nav-links a {
   color: var(--white);
   font-size: 1.5rem;
-  text-decoration: none; /* Add this to remove underline */
+  text-decoration: underline; /* Add this to remove underline */
 }
 .social-icons {
   position: fixed;
