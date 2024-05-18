@@ -31,12 +31,15 @@ const Navbar = () => {
     },
   ];
 
+
   return (
     <Fade cascade damping={0.2} triggerOnce={true}> 
-      <div className="navlist">
-        <ul>
+      {/* <div className="navlist">
+        <ul> */}
+    <div className="topbar"> {/* Changed class name to topbar */}
+      <ul className="nav-links"> {/* Added class name nav-links */}
           <li>
-            <a href="https://www.aymanabdalla.me">/Home</a>
+            <a href="https://www.aymanabdalla.me">Home</a>
           </li>
           {sections.map((section) => {
             return section.enable ? (

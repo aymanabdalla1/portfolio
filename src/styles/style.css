@@ -25,6 +25,7 @@
 }
 
 body {
+  margin: 0 auto;
   background: linear-gradient(#0d153b, #14315e);
   /* background: var(--dark-navy); */
   color: var(--white);
@@ -917,6 +918,88 @@ li {
 /*--------------------------------------------------------------
 # navlist AND link bar AND Repo Stats Section
 --------------------------------------------------------------*/
+
+/* Remove existing styles for .topbar and .topbar ul */
+
+/* Add/modify these styles */
+
+.nav-links {
+
+
+  position: fixed;
+  top: 10rem;
+  right: 1rem;
+  padding: 10rem;
+  margin: 10rem; /* Remove default margin */
+  display: flex; /* Display links vertically */
+  flex-direction: column; /* Display links vertically */
+  align-items: flex-end; /* Align links to the right */
+  list-style: none;
+}
+
+.nav-links li {
+  margin-left: 10px; /* Add spacing between links */
+}
+
+.nav-links a {
+  color: var(--white);
+  font-size: 1.5rem;
+  text-decoration: none; /* Add this to remove underline */
+}
+.social-icons {
+  position: fixed;
+  top: 0;
+  right: 1rem;
+  padding: 10px;
+  margin: 0; /* Remove default margin */
+  display: flex; /* Align icons horizontally */
+  align-items: center; /* Align icons vertically */
+  list-style: none;
+}
+
+.social-icons li {
+  margin-left: 10px; /* Add spacing between icons */
+}
+
+.social-icons a {
+  color: var(--white);
+  font-size: 1.8rem;
+  text-decoration: none; /* Add this to remove underline */
+}
+
+/* Remove existing styles inside the media query */
+
+/* Add/modify these styles outside the media query */
+.topbar {
+  position: fixed;
+  top: 0;
+  right: 9rem; /* Adjust as needed */
+  padding: 10px;
+  width: 100%; /* Occupy full width of the viewport */
+  z-index: 999;
+
+}
+
+.topbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; /* Remove default margin */
+}
+
+.topbar li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 4.25rem;
+}
+
+.topbar a {
+  color: var(--white);
+  font-size: 1.8rem;
+  text-decoration: none; /* Add this to remove underline */
+  margin: 0 10px; /* Add some spacing between icons */
+}
+
 
 .repo-stats,
 .navlist,
