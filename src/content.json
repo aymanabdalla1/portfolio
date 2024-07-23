@@ -61,31 +61,35 @@
     "years": [
       {
         "semester": "University of Texas at Arlington",
+        "degree": "Bachelor of Science in Software Engineering",
         "courses": [
           {
             "abbreviation": "Most Recent Education",
-            "name": "Bachelor of Science in Software Engineering ---------------------------------------------------------------------- Expected Graduation: December 2024",
+            "name": " ",
+            "dates": "Expected Graduation: December 2024",
             "credits": 3.0
           }
         ]
       },
       {
         "semester": "Relevant Courses",
+        "space": "line",
         "courses": [
           {
-            "abbreviation": "Learned with C or Java",
+            "abbreviation": "Learned with C / Java / Python",
             "name": "Data Structures & Algorithms, Object-Oriented Programming, Artificial Intelligence, Programming Languages, Operating Systems, Databases",
-            "credits": 3.0
+            "credits": 2.0
           }
         ]
       },
-
       {
         "semester": "Texas A&M University at Corpus Christi",
+        "degree": "Bachelor of Business in Marketing",
         "courses": [
           {
             "abbreviation": "Past Education",
-            "name": "Bachelor of Business in Marketing ---------------------------------------------------------------------------------- August 2014 - December 2018",
+            "name": " ",
+            "dates": "August 2014 - December 2018",
             "credits": 3.0
           }
         ]
@@ -124,12 +128,14 @@
         ]
       },
       {
-        "organization": "Future Experience",
-        "title": "Software Engineering Intern",
-        "start_date": "Now",
-        "end_date": "Future",
+        "organization": "Headstarer AI",
+        "title": "Software Engineering Fellow",
+        "start_date": "July 2024",
+        "end_date": "Present",
         "description": [
-          " >>> work in progress <<<"
+          "Building 5 AI-driven projects during an intensive 7-week program achieving a 100% project completion rate",
+          "Developing proficiency in HTML/CSS, React/Next.js, Firebase, OpenAI, AWS EC2/Lambda, Authentication, Payment, and Vector Databases",
+          "Implementing deployment strategies that improved application efficiency by 30% optimizing overall performance."
         ]
       }
     ]

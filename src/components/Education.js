@@ -103,13 +103,13 @@ const Education = () => {
                   alt="UTA Logo"
                   width="15%"
                   className="bg-snow shadow-md border-2 border-black rounded-xl p-1 flex justify-center items-center"/> */}
-  
-{/* 
+
+  {/* 
             <div className="content">
     <img src="/assets/icons/uta_logo.jpeg" alt="UTA LOGO" />
     <h3>Title</h3>
     <p>Some Description</p>
-</div> */}
+  </div> */}
             
             {/* <img
                   src="/assets/icons/tamucc_logo.png"
@@ -130,21 +130,32 @@ const Education = () => {
                           <thead>
                             <tr>
                               <th>
-                                {year.semester} {year.year}
+                              {year.semester === 'University of Texas at Arlington' && (
+                                  <img src="/assets/icons/uta_logo.jpeg" alt="ayman abdalla school a" style={{ width: '50px', marginRight: '10px' }} />
+                                )}
+                                {year.semester === 'Texas A&M University at Corpus Christi' && (
+                                  <img src="/assets/icons/tamucc_logo2.jpg" alt="ayman abdalla school b" style={{ width: '50px', marginRight: '10px' }} />
+                                )}
+                                {year.semester}
                               </th>
+                              <th style={{ textAlign: 'right' }}>
+                                {year.degree}
+                              </th>
+
                             </tr>
                           </thead>
                           <tbody>
                             {year.courses.map((course, index) => (
                               <tr key={index}>
-                                <td data-tooltip={course.abbreviation}>
-                                  {course.name}
-                                </td>
+                                <td style={{ textAlign: 'left' }}>{course.name}</td>
+                                <td style={{ textAlign: 'right' }}>{course.dates}</td>
                               </tr>
                             ))}
                           </tbody>
                         </table>
                       </div>
+                      {year.space ===  "line"&& (
+                      <div className="line-big"></div>)}
                     </Fade>
                   </div>
                 ))}
