@@ -24,13 +24,87 @@
   background: var(--light-navy);
 }
 
-body {
-  margin: 0 auto;
-  background: linear-gradient(#101d5f, #14315e);
-  /* background: var(--dark-navy); */
-  color: var(--white);
-  cursor: default;
+@keyframes cube {
+  from {
+      transform: scale(0) rotate(0deg) translate(-50%, -50%);
+      opacity: 1;
+  }
+  to {
+      transform: scale(20) rotate(960deg) translate(-50%, -50%);
+      opacity: 0;
+  }
 }
+
+.background {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(#040922, #14315e);
+  overflow: hidden;
+}
+.background li {
+  position: absolute;
+  top: 80vh;
+  left: 17vw;
+  width: 12px;
+  height: 12px;
+  border: solid 1px #0039ad;
+  color: transparent;
+  transform-origin: top left;
+  transform: scale(0) rotate(0deg) translate(-50%, -50%);
+  animation: cube 7s ease-in forwards infinite;
+}
+undefined
+.background li:nth-child(0) {
+  animation-delay: 0s;
+  left: 14vw;
+  top: 50vh;
+}
+
+.background li:nth-child(1) {
+  animation-delay: 2s;
+  left: 12vw;
+  top: 46vh;
+}
+
+.background li:nth-child(2) {
+  animation-delay: 5s;
+  left: 15vw;
+  top: 25vh;
+}
+
+.background li:nth-child(3) {
+  animation-delay: 6s;
+  left: 85vw;
+  top: 62vh;
+}
+
+.background li:nth-child(4) {
+  animation-delay: 8s;
+  left: 76vw;
+  top: 5vh;
+  border-color: #0039ad;
+}
+
+.background li:nth-child(5) {
+  animation-delay: 10s;
+  left: 79vw;
+  top: 87vh;
+}
+
+
+/* body {
+  margin: 0 auto;
+  background: linear-gradient(#040922, #14315e);
+  animation: gradient 15s ease infinite;
+  /* background: var(--dark-navy); */
+  /* color: var(--white);
+  cursor: default; */
+/* } */
 
 .p-r {
   position: relative;
