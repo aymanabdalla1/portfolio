@@ -56,7 +56,7 @@
   color: transparent;
   transform-origin: top left;
   transform: scale(0) rotate(0deg) translate(-50%, -50%);
-  animation: cube 7s ease-in forwards infinite;
+  animation: cube 8s ease-in forwards infinite;
 }
 undefined
 .background li:nth-child(0) {
@@ -1256,7 +1256,9 @@ footer a:hover {
 --------------------------------------------------------------*/
 
 .error-section {
+  background: linear-gradient(#040922, #14315e);
   width: 100%;
+  flex-flow: column;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -1276,7 +1278,7 @@ footer a:hover {
 .error-section a {
   text-align: center;
   color: var(--bone-white);
-  padding: 2rem;
+  padding: 0.4rem;
   text-decoration: none;
 }
 

@@ -10,7 +10,7 @@ const Error404 = () => {
         <br />
         <br /> Return to our homepage.
         <br />
-        Send us an e-mail about this error and try later.
+        Send me an e-mail about this error and try later.
       </p>
       <a href="/">Home page</a> |
       <a href={contentData.general.navbar_social_links.github}>GitHub Page</a>
