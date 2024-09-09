@@ -371,7 +371,7 @@ a {
 
 [data-tooltip] {
   position: relative;
-  z-index: 0; /* Increase the z-index value to ensure tooltips appear above other elements */
+  z-index: 1; /* Increase the z-index value to ensure tooltips appear above other elements */
   cursor: pointer;
 }
 
@@ -382,6 +382,7 @@ a {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
+  z-index: 2001;
   pointer-events: none;
 }
 
@@ -431,6 +432,7 @@ a {
   visibility: visible;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
   filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=100);
+  z-index: 2002;
   opacity: 1;
 }
 
@@ -1285,4 +1287,13 @@ footer a:hover {
 .error-section a:hover {
   color: var(--smoke);
   transition: all 1s ease;
+}
+
+.project-image {
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
 }

@@ -152,6 +152,7 @@
         "use_git_api": true,
         "api_github_repo_link": "https://api.github.com/repos/aymanabdalla1/portfolio",
         "project_name": "Project In",
+        "logo": "../assets/project_in_logo.png",
         "description": "A dynamic platform aimed at empowering creators to showcase their software projects to developers, enthusiasts, and potential collaborators.",
         "resources_used": [
           "JavaScript",
@@ -164,6 +165,11 @@
         "start_date": "May 2024",
         "end_date": "Present",
         "links": [
+          {
+            "href": "https://project-in.vercel.app/",
+            "icon": "FiExternalLink",
+            "data_tooltip": "Visit Project In Site"
+          },
           {
             "href": "https://github.com/aymanabdalla1/project_in",
             "icon": "FaGithub",
@@ -194,6 +200,7 @@
         "use_git_api": true,
         "api_github_repo_link": "https://api.github.com/repos/aymanabdalla1/pixera",
         "project_name": "PixEra",
+        "project_image": "../assets/pixera.png",
         "description": "A website designed to connect photographers and videographers together with clients and provide them an easy booking experience.",
         "resources_used": [
           "JavaScript",

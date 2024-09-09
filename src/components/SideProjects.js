@@ -181,6 +181,7 @@ const SideProjects = () => {
                       <h3 className="card-title">
                         {project.project_name}
                       </h3>
+                      <img src={project.logo} alt="Logo for the Project" className="project-image" />
                       <p className="card-description">
                         {project.description}
                       </p>
