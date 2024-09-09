@@ -180,16 +180,26 @@
       {
         "use_git_api": true,
         "api_github_repo_link": "https://api.github.com/repos/aymanabdalla1/redblue_nim",
-        "project_name": "Red-Blue Nim Game",
-        "description": "An ai agent decision-based game that allows players to select red and blue marbles while avoiding depleting either pile to 0 marbles on their turn.",
+        "project_name": "Caption Flow",
+        "logo": "../assets/caption_flow_logo.png",
+        "description": "An advanced AI-powered platform designed to help users effortlessly and dynamically add captions to their videos, enhancing accessibility and engagement.",
         "resources_used": [
-          "Python",
-          "Bash"
+          "JavaScript",
+          "HTML & CSS",
+          "Next.js",
+          "AWS S3",
+          "FFMPEG"
         ],
-        "start_date": "Jan 2024",
-        "end_date": "May 2024",
+        "start_date": "July 2024",
+        "end_date": "August 2024",
         "links": [
           {
+            "href": "https://jelly-jelly.vercel.app/",
+            "icon": "FiExternalLink",
+            "data_tooltip": "Visit Caption Flow Site"
+          },
+          {
+            
             "href": "https://github.com/aymanabdalla1/redblue_nim",
             "icon": "FaGithub",
             "data_tooltip": "Visit GitHub Repo"
