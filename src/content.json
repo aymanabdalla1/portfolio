@@ -150,7 +150,7 @@
     "project_items": [
         {
         "use_git_api": true,
-        "api_github_repo_link": "https://api.github.com/repos/aymanabdalla1/portfolio",
+        "api_github_repo_link": "https://api.github.com/repos/aymanabdalla1/project_in",
         "project_name": "Project In",
         "logo": "../assets/project_in_logo.png",
         "description": "A dynamic platform aimed at empowering creators to showcase their software projects to developers, enthusiasts, and potential collaborators.",
@@ -179,7 +179,7 @@
       },
       {
         "use_git_api": true,
-        "api_github_repo_link": "https://api.github.com/repos/aymanabdalla1/redblue_nim",
+        "api_github_repo_link": "https://api.github.com/repos/aymanabdalla1/jelly_jelly",
         "project_name": "Caption Flow",
         "logo": "../assets/caption_flow_logo.png",
         "description": "An advanced AI-powered platform designed to help users effortlessly and dynamically add captions to their videos, enhancing accessibility and engagement.",
@@ -208,24 +208,29 @@
       },
       {
         "use_git_api": true,
-        "api_github_repo_link": "https://api.github.com/repos/aymanabdalla1/pixera",
-        "project_name": "PixEra",
-        "project_image": "../assets/pixera.png",
-        "description": "A website designed to connect photographers and videographers together with clients and provide them an easy booking experience.",
+        "api_github_repo_link": "https://api.github.com/repos/aymanabdalla1/ai_flashcards",
+        "project_name": "FlashyCard",
+        "logo": "../assets/flashy_card_logo.png",
+        "description": "FlashyCard makes studying a breeze by using AI to turn your text into custom flashcards. Just add your text and FlashyCard will handle the rest, so you can focus on learning.",
         "resources_used": [
           "JavaScript",
-          "React.js",
-          "Python",
-          "MongoDB",
-          "Digital Ocean",
-          "Node.js",          
-          "HTML & CSS"
+          "Next.js",
+          "HTML & CSS",
+          "Firebase",
+          "OpenAI",
+          "Stripe",
+          "Clerk"
         ],
-        "start_date": "Sept 2023",
-        "end_date": "Dec 2023",
+        "start_date": "July 2024",
+        "end_date": "August 2024",
         "links": [
           {
-            "href": "https://github.com/aymanabdalla1/pixera",
+          "href": "https://ai-flashcards-two.vercel.app/",
+          "icon": "FiExternalLink",
+          "data_tooltip": "Visit FlashyCard Site"
+          },
+          {
+            "href": "https://github.com/aymanabdalla1/ai_flashcards",
             "icon": "FaGithub",
             "data_tooltip": "Visit GitHub Repo"
           }
